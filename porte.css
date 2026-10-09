@@ -1,0 +1,243 @@
+body{
+    background-color: rgb(30, 23, 43);
+}
+.header{
+    display: flex;
+    background-color: rgb(25, 18, 42);
+    position: relative;
+    height: 70px;
+    color: #ffffff;
+    align-items: center;
+}
+.logo{
+    display: table-column;
+    position: relative;
+    margin-left: 10px;
+ }
+.head{
+    display: flex;
+     position: relative;
+    margin-left: 330px;
+    font-size: 20px;
+    gap: 30px;
+    transition: transform;
+
+}
+/*.head-link {
+    position: relative;
+    color: #94a394;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+*/
+.head:hover{
+    color: rgb(238, 130, 209);
+    transform: scale(3y);
+}    
+
+p{
+ position: relative;
+ font-size: 15;
+ font-weight: bold;
+
+}
+.nom{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.telecharge{
+    border-radius: 15px;
+    padding: 6px;
+    width: 150px;
+    border:1px solid  rgb(238, 130, 209);
+    color: rgb(238, 130, 209);
+    background-color: rgb(25, 18, 42);
+    
+}
+g{
+    color: rgb(238, 130, 209);
+}
+
+.p2{
+    position: relative;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 4px;
+}
+.nom2{
+    position: relative;
+    font-size: 35px;
+    font-weight: bold;
+    top: 5px;
+
+}
+.etudiant{
+    position: relative;
+    top: 5px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.texte{
+    position: relative;
+    margin-top: 30px;
+    width: 630px;
+    font: none;
+}
+.p2{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.bonjour{
+    color: rgb(238, 130, 209);
+    font-size: 13px;
+}
+.bouton{
+    position: relative;
+    top: 50px;
+    display: flex;
+    gap: 15px;
+}
+.input1, .input2, .input3{
+    position: relative;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;   
+}
+.input1{
+    background-color:  rgb(238, 130, 209);
+    color: #ffffff;
+    width: 150px;
+
+}
+.input2{
+    background-color:  rgb(30, 23, 43);
+    color:  rgb(238, 130, 209);
+    border: 1px solid  rgb(238, 130, 209);
+    width: 150px;
+    margin-left: 40px;
+
+}
+.emojie{
+    position: relative;
+    display: flex;
+    gap: 8px;
+    top: 80px;
+}
+
+.section2{
+    position: relative;
+    display: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 180px;
+    border: 5px double rgb(35, 31, 57);
+    border-left: none;
+    border-right: none;
+    margin-left: 50px;
+    color: #ffffff;
+    height: 450px;
+    padding-top: 20px;
+    width: all;
+    word-spacing: 5px;
+}
+.competence{
+    position: relative;
+    color: rgb(238, 130, 209);
+    font-size: 13px;
+    
+}
+.outils{
+    position: relative;
+    width: 330px;
+}
+s1{
+    color: rgb(238, 130, 209);
+}
+.texte2{
+    position: relative;
+    width: 560px;
+}
+.input3{
+    background-color:  rgb(30, 23, 43);
+    color:  rgb(238, 130, 209);
+    border: 1px solid  rgb(238, 130, 209);
+    width: 180px;
+    margin-top: 25px;
+    padding: 7px;
+
+}
+
+section{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(2 ,auto);
+   width: 690px;
+   height: 300px;
+   /*justify-content: flex-end; pousse tout a droite*/
+   margin-left: auto;
+   position: relative;
+   bottom: 230px;
+}
+
+.deplacement1, .deplacement2, .deplacement3, .deplacement4, .deplacement5, 
+.deplacement6, .deplacement7, .deplacement8 {
+    position: relative;
+    margin-top: -10px;
+   
+}
+
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8{
+    border: 2px solid rgb(35, 31, 57);
+    background-color:  rgba(27, 21, 49, 0.922);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 130px;
+    height: 120px;
+    border-radius: 10px;
+    font-weight: none;
+    font-size: 12px;
+    gap: 20px;
+}
+
+.grid1 img, .grid2 img, .grid3 img, .grid4 img, .grid5 img, .grid6 img, .grid7 img, .grid8 img{
+    position: relative;
+    height: 70px;
+    width: auto;
+}
+
+.section3{
+    display: flex;
+    margin-right: 800px;
+    background-color: rgba(27, 21, 49, 0.922);
+    position: relative;
+    height: auto;
+    width: 1300px;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 15px;
+    gap: 300px;
+    padding: 10px;
+    height: auto;
+    border: 1px solid rgb(37, 34, 58);;
+}
+.boite1, .boite2, .boite3{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.log{
+    color: rgb(238, 130, 209);
+    font-weight: bold;
+    margin-top: 8px;
+}
+.part{
+    white-space: nowrap ;
+}

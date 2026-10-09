@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="porte.css">
+
+</head>
+<body>
+    <form action="">
+    <div class="header">
+
+    <div><p style="color: rgb(238, 130, 209); margin-left<: 50px;">&lt/&gt<p></div>
+    <div class="logo">
+      <div class="nom"> chekam  <g>princesse</g> </div>
+      <div>développeuse web</div>
+    </div>
+  
+    <!--
+      <a href="">Acceuil</a>
+      <a href="">A propos</a>
+      <a href="">Compétences</a>
+      <a href="">Projets</a>
+      <a href="">Parcours</a>
+      <a href="">Contact</a> 
+    -->
+    <div class="head">
+      <div style="color: rgb(238, 130, 209);">acceuil</div>
+      <div>a propos</div>
+      <div>competences</div>
+      <div>projets</div>
+      <div>parcours</div>
+      <div>contact</div>
+      <tr><td><input type="submit" value="acceder a mon cv" class="telecharge"></td></tr>
+    </div>
+</div>
+
+<div class="p2">
+  <div class="bonjour">___Bonjour, je suis</div>  
+  <div class="nom2">Chekam <g style="color: rgb(238, 130, 209)">Princesse</g></div>
+  <div class="etudiant">Étudiante en informatique | Développeuse Web.</div>
+  <div class="texte">passionée par la technologie et le création de solutions web modernes,
+    Je concois des sites web simples.Performants et utiles. je suis toujours
+    curieuse d'apprendre et de relever de nouveaux défis.</div>
+<div class="bouton">
+    <tr><td><input type="submit" value="voir mes projets" class="input1"></td>
+        <td><input type="submit" value="Me contacter"     class="input2 "></td></tr>
+</div>
+
+<div class="emojie">
+  <div>🐱</div>
+  <div>🐱</div>
+  <div>🐱</div>
+  <div>🐱</div>
+</div>
+</div>
+
+<div class="section2">
+  <div class="competence">___Mes compétences</div>
+  <div class="outils"><h2>Des outils pour créer <s1>des solutions concretes</s1></h2></div>
+  <div class="texte2">je maitrise plusieurs technologies et outils qui me permettent de 
+  developper des sites web modernes, dynamiques et adaptés aux besoins des utilisateurs</div>
+  <div><tr><td><input type="submit" value="🐱 Voir mon parcours 🐱" class="input3"></td></tr></div>
+
+
+
+<section>
+
+  <div class="grid1">
+    <div><img src="logos/R-removebg-preview.png" alt="html"></div>
+     <div class="deplacement1">
+      <div>HTML</div>
+      <div  style="color: rgb(238, 130, 209);">90%</div>
+      <div>Avancé</div>
+     </div>
+  </div>
+
+  <div class="grid2">
+    <div><img src="logos/téléchargement (1).png" alt="html"></div>
+     <div class="deplacement2">
+      <div>CSS</div>
+      <div  style="color: rgb(238, 130, 209);">80%</div>
+      <div>Avancé</div>
+     </div>
+  </div>
+
+  <div class="grid3">
+    <div><img src="logos/téléchargement.png" alt="html"></div>
+     <div class="deplacement3">
+      <div>TailwindCSS</div>
+      <div  style="color: rgb(238, 130, 209);">70%</div>
+      <div>Avancé</div>
+     </div>
+  </div>
+
+  <div class="grid4">
+    <div><img src="logos/R__1_.png" alt="html"></div>
+     <div class="deplacement4">
+      <div>JavaScript</div>
+      <div  style="color: rgb(238, 130, 209);">30%</div>
+      <div>intermediaire</div>
+     </div>
+  </div>
+
+  <div class="grid5">
+    <div><img src="logos/R.png" alt="html"></div>
+     <div class="deplacement5">
+      <div>PHP</div>
+      <div  style="color: rgb(238, 130, 209);">55%</div>
+      <div>Avancé</div>
+     </div>
+  </div>
+
+  <div class="grid6">
+    <div><img src="logos/téléchargement (5).png" alt="html"></div>
+     <div class="deplacement6">
+      <div>MySQL</div>
+      <div  style="color: rgb(238, 130, 209);">60%</div>
+      <div>Avancé</div>
+     </div>
+  </div>
+
+  <div class="grid7">
+    <div><img src="téléchargement (2).png" alt="html"></div>
+     <div class="deplacement7">
+      <div>C++</div>
+      <div  style="color: rgb(238, 130, 209);">40%</div>
+      <div>intermediaire</div>
+     </div>
+  </div>
+
+  <div class="grid8">
+    <div><img src="téléchargement (3).png" alt="html"></div>
+     <div class="deplacement8">
+      <div>C</div>
+      <div  style="color: rgb(238, 130, 209);">55%</div>
+      <div>Avancé</div>
+     </div>
+  </div>
+</section>
+
+<section class="section3">
+   <div class="boite1">
+    <div class="log">&lt/&gt</div>
+    <div class="part">
+    <div style="font-weight: bold;">Développement web</div>
+    <div style="font-family: none;">Sites web, interfaces modernes</div>
+    </div>
+   </div>
+
+   <div class="boite2">
+    <div class="log">&lt/&gt</div>
+
+    <div class="part">
+    <div style="font-weight: bold;">Bases de Données</div>
+    <div style="font-family: none;">MySQL,SQL,ACCESS</div>
+    </div>
+   </div>
+   
+   <div class="boite3">
+    <div class="log">&lt/&gt</div>
+
+    <div class="part2">
+    <div style="font-weight: bold;">Outils & Logiciels</div>
+    <div style="font-family: none;">VS Code, Pycharm,WampS,Word,PowerP  </div>
+    </div>
+   </div>
+</section>
+
+</div>
+ </form>
+</body>
+</html>
